@@ -1,8 +1,16 @@
 # LearnCube Insights Client
 
 ### [Overview](README.md)
-  * [Quickstart](README.md#quickstart)
 
+* [Quickstart](README.md#quickstart)
+
+### [Production Use](PRODUCTION.md)
+
+* [Versions](PRODUCTION.md#versions)
+* [Routes](PRODUCTION.md#routes)
+* [Authentication](AUTH.md#authentication)
+* [Events](PRODUCTION.md#events)
+* [Client Api Reference](PRODUCTION.md#api-reference)
 
 ### Overview
 LearnCube Insights is a cloud-based dashboard that provides reporting and analysis of your LearnCube classrooms and users. 
@@ -52,7 +60,6 @@ LearnCube's Insights is only available to LearnCube customers with API access en
 
 - Replace the user data in the `index.html` file with user data of a teacher or admin. 
 
-  ***Note: This does not have to match the user data in your `.env` file. All your insights users will access the classroom using your LearnCube account details.***
   ```html
       <div id="insights-client"></div>
       <link rel="stylesheet" type="text/css" href="https://static.learncube.net/client/reporting.css">
